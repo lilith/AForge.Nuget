@@ -57,10 +57,7 @@ namespace AForgeUpoader {
 
                     Console.Write(desc.BaseName + " (" + opts + "):");
                     opts = Console.ReadLine().Trim();
-
                     desc.Options = opts;
-                    if (desc.Build) isMakingNugetPackage = true;
-
                 }
             }
 

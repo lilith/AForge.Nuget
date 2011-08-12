@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Win32;
 
-namespace AforgeUploader {
+namespace AForgeUploader {
     class Program {
         [STAThread]
         static void Main(string[] args) {
