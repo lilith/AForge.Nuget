@@ -10,7 +10,7 @@
 		<projectUrl>http://www.aforgenet.com/framework/</projectUrl>
 		<iconUrl></iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Contains an unparalleled assortment of (efficient) image processing, filtering, and object detection classes. Energy filters, automatic histogram adjustments, localized binarization, and more.
+		<description>Contains an unparalleled assortment of (efficient) image processing, filtering, and object detection classes. Energy filters, automatic histogram adjustments, localized binarization, and more.</description>
 		<tags>AForge Computer Vision Neural Networks Video Processing Genentic Fuzzy Robotics Machine Learning Image Processing</tags>
 		<dependencies>
 		  <dependency id="AForge" />

@@ -10,7 +10,7 @@
 		<projectUrl>http://www.aforgenet.com/framework/</projectUrl>
 		<iconUrl></iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Contains math utilities, which are used by other AForge.NET namespaces or may be used individually. LGPL licensed.
+		<description>Contains math utilities, which are used by other AForge.NET namespaces or may be used individually. LGPL licensed.</description>
 		<tags>AForge Computer Vision Neural Networks Video Processing Genentic Fuzzy Robotics Machine Learning Image Processing</tags>
 		<dependencies>
 			<dependency id="AForge" />

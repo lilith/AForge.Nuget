@@ -10,10 +10,8 @@
 		<projectUrl>http://www.aforgenet.com/framework/</projectUrl>
 		<iconUrl></iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Contains classes that are used by nearly all the AForge libraries. LGPL licensed.
+		<description>Contains classes that are used by nearly all the AForge libraries. LGPL licensed.</description>
 		<tags>AForge Computer Vision Neural Networks Video Processing Genentic Fuzzy Robotics Machine Learning Image Processing</tags>
-		<dependencies>
-		</dependencies>
 	</metadata>
   	<files>
 		<file src="..\Release\AForge.dll" target="lib" />

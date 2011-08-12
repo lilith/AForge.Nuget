@@ -5,8 +5,6 @@
 		<version>$version$</version>
 		<authors>Andrew Kirillov</authors>
 		<description>Description</description>
-		<dependencies>
-		</dependencies>
 	</metadata>
   	<files>
 		<file src="..\Release\AForge.dll" target="lib" />
