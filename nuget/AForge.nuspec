@@ -8,7 +8,7 @@
 		<owners>Nathanael Jones</owners>
 		<licenseUrl>http://www.aforgenet.com/framework/license.html</licenseUrl>
 		<projectUrl>http://www.aforgenet.com/framework/</projectUrl>
-		<iconUrl></iconUrl>
+		<iconUrl>http://code.google.com/p/aforge/logo?cct=1303246607</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Contains classes that are used by nearly all the AForge libraries. LGPL licensed.</description>
 		<tags>AForge Computer Vision Neural Networks Video Processing Genentic Fuzzy Robotics Machine Learning Image Processing</tags>
