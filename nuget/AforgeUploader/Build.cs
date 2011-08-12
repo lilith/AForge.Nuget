@@ -7,7 +7,7 @@ using BuildTools;
 using LitS3;
 using System.Net;
 
-namespace AForgeUpoader {
+namespace AForgeUploader {
     public class Build :Interaction {
         FolderFinder f = new FolderFinder("nuget" );
         Devenv d = null;
@@ -46,7 +46,8 @@ namespace AForgeUpoader {
                 foreach (NPackageDescriptor desc in npackages) {
 
                     desc.Version = fileVer;
-                    desc.OutputDirectory = Path.Combine(Path.Combine(f.ParentPath, "Releases", "nuget-packages"));
+                    desc.OutputDirectory = Path.Combine(Path.Combine(f.ParentPath, "nuget", "built-packages"));
+                    if (!Directory.Exists(desc.OutputDirectory)) Directory.CreateDirectory(desc.OutputDirectory);
                     string opts = "";
 
                     ConsoleColor original = Console.ForegroundColor;
