@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
-		<id>AForge</id>
+		<id>AForge.Math</id>
 		<version>$version$</version>
 		<authors>Andrew Kirillov</authors>
 		<description>Description</description>
 		<dependencies>
+		  <dependency id="AForge" />
 		</dependencies>
 	</metadata>
   	<files>
-		<file src="..\Release\AForge.dll" target="lib" />
-		<file src="..\Sources\Core\**\*.cs" target="src" />
+		<file src="..\Release\AForge.Math.dll" target="lib" />
+		<file src="..\Sources\Math\**\*.cs" target="src" />
 	</files>
 </package>

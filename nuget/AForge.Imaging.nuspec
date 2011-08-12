@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
-		<id>AForge</id>
-		<title>AForge - Core library</title>
+		<id>AForge.Imaging</id>
+		<title>AForge.Imaging - Amazing image processing library</title>
 		<version>$version$</version>
 		<authors>Andrew Kirillov</authors>
 		<owners>Nathanael Jones</owners>
@@ -10,13 +10,15 @@
 		<projectUrl>http://www.aforgenet.com/framework/</projectUrl>
 		<iconUrl></iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Contains classes that are used by nearly all the AForge libraries. LGPL licensed.
+		<description>Contains an unparalleled assortment of (efficient) image processing, filtering, and object detection classes. Energy filters, automatic histogram adjustments, localized binarization, and more.
 		<tags>AForge Computer Vision Neural Networks Video Processing Genentic Fuzzy Robotics Machine Learning Image Processing</tags>
 		<dependencies>
+		  <dependency id="AForge" />
+		  <dependency id="AForge.Math" />
 		</dependencies>
 	</metadata>
   	<files>
-		<file src="..\Release\AForge.dll" target="lib" />
-		<file src="..\Release\AForge.xml" target="lib" />
+		<file src="..\Release\AForge.Imaging.dll" target="lib" />
+		<file src="..\Release\AForge.Imaging.xml" target="lib" />
 	</files>
 </package>
