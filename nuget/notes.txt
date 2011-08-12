@@ -1,0 +1,1 @@
+There was a small bug in "Build All.sln" file, which resulted in a small bug in the diagrams you've made. AForge.Control.dll also depends on AForge.Imaging.dl. The solution file was just updated.
